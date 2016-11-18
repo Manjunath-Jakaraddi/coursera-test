@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Module2-solution</title>
+  <style type="text/css">
+  * {
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+  }
+    h1{
+      text-align: center;
+    }
+    h2{
+      position: absolute;
+      right: 0px;
+      margin: 0px;
+      border: 1px solid black;
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    .container {
+      position: relative;
+      border: 1px solid black;
+      margin-left: 20px;
+      background-color: #9e9e94; 
+    }
+    .paras{
+      margin: 40px 10px 5px 15px;
+    }
+    .Beef{
+      color: white;
+      background-color: #990000;
+    }
+    .Chicken{
+      background-color:#ff99cc;
+    }
+    .Sushi{
+      background-color:#ffd480;
+    }
+    @media (min-width: 992px){
+      .col-lg{
+        float: left;
+      }
+      .container{
+        width: 30%;
+      }
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+      .col-md {
+        float: left;
+      }
+      .container {
+        width: 45%
+      }
+      #Sus{
+        margin-top: 20px;
+        width: 92.5%;
+        margin-right:50px; 
+        clear: left;
+      }
+    }
+    @media (max-width: 767px){
+      .container{
+        margin-top: 25px;
+        margin-right: 20px;  
+      }
+    }
+  </style>
+</head>
+<body>
+<h1>MENU</h1>
+<div class="main">
+  <div class="container col-lg col-md">
+    <h2 class="Chicken">Chicken</h2>
+    <p class="paras">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia nulla consectetur velit! At, asperiores dolorem. Et iure assumenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias voluptatem accusamus ut natus consequuntur quis laboriosam doloribus porro vero assumenda quo temporibus quos quam quisquam, libero quod,
+    </p>
+  </div>
+  <div class="container col-lg col-md">
+    <h2 class="Beef">Beef</h2>
+    <p class="paras">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia nulla consectetur velit! At, asperiores dolorem. Et iure assumenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias voluptatem accusamus ut natus consequuntur quis laboriosam doloribus porro vero assumenda quo temporibus quos quam quisquam, libero quod,
+    </p>
+  </div>
+  <div class="container col-lg col-md" id="Sus">
+    <h2 class="Sushi">Sushi</h2>
+    <p class="paras">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia nulla consectetur velit! At, asperiores dolorem. Et iure assumenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias voluptatem accusamus ut natus consequuntur quis laboriosam doloribus porro vero assumenda quo temporibus quos quam quisquam, libero quod,
+    </p>
+  </div>
+</div>
+</body>
+</html>
